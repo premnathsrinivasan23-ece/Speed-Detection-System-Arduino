@@ -86,11 +86,16 @@ Speed = Distance / Time
 💻 Software Used
 Arduino IDE
 Arduino Serial Monitor
+## 📸 Project Working Conditions
 
+### 🟢 Normal Speed Condition
 
+When the detected speed is within the predefined speed limit, the green LED turns ON, indicating safe operation.
 
+![Normal Speed](normal%20speed.png)
 
+### 🔴 Overspeed Condition
 
+When the detected speed exceeds the predefined speed limit, the red LED turns ON and the buzzer activates as a warning.
 
-```text
-Speed = Distance / Time
+![Overspeed Condition](over%20speed.png)
